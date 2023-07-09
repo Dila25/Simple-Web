@@ -65,7 +65,7 @@ function UserHome() {
         <input className='input' type="text" id="userName" name="userName" value={inputs.userName} required onChange={handleChange} /><br /><br />
 
         <label className ="fmhd "For="userPhone">Phone:</label><br />
-        <input className='input' type="text" id="userPhone" name="userPhone" value={inputs.userPhone} required onChange={handleChange} /><br /><br />
+        <input className='input' type="text" id="userPhone" name="userPhone" value={inputs.userPhone} required onChange={handleChange}  pattern="[0-9]{10}" /><br /><br />
 
         <label className ="fmhd "For="userGmail">Email:</label><br />
         <input className='input' type="email" id="userGmail" name="userGmail" value={inputs.userGmail} required onChange={handleChange} /><br /><br />
