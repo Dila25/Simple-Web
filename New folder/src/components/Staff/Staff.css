@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Inter:wght@300&family=Libre+Franklin&family=Noto+Serif+Hebrew&family=Noto+Serif+JP:wght@500&family=Oswald&family=Roboto&family=Roboto+Condensed:wght@300;400&family=Roboto+Slab:wght@400;600;800&family=Sarala&family=Signika+Negative:wght@700&family=Staatliches&family=Zilla+Slab:ital,wght@1,500&display=swap');
+
+#users {
+    font-family: Roboto Slab;
+    color: #000;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 250px;
+  }
+  
+  #users tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #users tr:hover {background-color: #dadada48;}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #131E2F;
+    color: rgb(255, 255, 255);
+    width: 250px;
+}
+
+.mh2{
+    text-align: center;
+    color: #131E2F;
+    font-size: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .updatebtn {
+    background-color: #131E2F;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fbfbfb;
+    border: #131E2F;
+    cursor: pointer;
+  }
+  
+  .bottone6 {
+    background-color: #ff0000;
+    border: #ff0000;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fbfbfb;
+    cursor: pointer;
+    font-family: Roboto Slab;
+  }
+  
+  .btnr {
+    padding-left: 100px;
+  }
+  .label-container {
+    position: fixed;
+    bottom: 48px;
+    right: 105px;
+    display: table;
+    visibility: hidden;
+  }
+  
+  .label-text {
+    color: #fff; /* Change to white */
+    background: rgba(51, 51, 51, 0.5);
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #000; /* Add black border */
+  }
+  
+  .label-arrow {
+    display: table-cell;
+    vertical-align: middle;
+    color: #333;
+    opacity: 0.5;
+  }
+  
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #fff; /* Change to white */
+    color: #000; /* Change to black */
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+  }
+  
+  .my-float {
+    font-size: 24px;
+    margin-top: 18px;
+  }
+  
+  a.float + div.label-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+  }
+  
+  a.float:hover + div.label-container {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .btnStf{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+
+  }
